@@ -21,7 +21,6 @@ public class Arena {
 		ConfigurationSection conf = FilesMain.getInstance().get(id + "");
 		this.redspawn = getLocation(conf.getConfigurationSection("redspawn"));
 		this.bluespawn = getLocation(conf.getConfigurationSection("bluespawn"));
-		
 	}
 	public boolean isStated(){
 		return started;
