@@ -36,5 +36,4 @@ public class WorldListeners extends WorldMain implements Listener{
 			print(xyz, Lang.Status.INFO);
 		}
 	}
-
 }
