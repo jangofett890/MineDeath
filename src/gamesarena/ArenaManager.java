@@ -1,8 +1,11 @@
 package gamesarena;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import org.bukkit.entity.Player;
+
+import files.FilesMain;
 
 public class ArenaManager {
 	public enum Team {RED,BLUE}
@@ -13,7 +16,9 @@ public class ArenaManager {
 	}
 	private ArrayList<Arena> arena = new ArrayList<Arena>();
 	public void setup(){
-		//Config Time :)
+		for (int i : FilesMain.getInstance().<List<Integer>>get("ids")){
+			arena.add(new Arena(i));
+		}
 	}
 	public Arena getArena(int id){
 		for (Arena a : arena){

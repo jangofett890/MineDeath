@@ -25,7 +25,7 @@ public class Lang {
 	public static Lang getInstance(){
 		return instance;
 	}
-	public void sendMessage(CommandSender src, String message, Status status){
+	public static void sendMessage(CommandSender src, String message, Status status){
 		src.sendMessage(stat(status) + message);
 	}
 	public static void print(String arg, Status status){
