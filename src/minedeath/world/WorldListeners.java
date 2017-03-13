@@ -7,6 +7,8 @@ import org.bukkit.event.block.Action;
 import org.bukkit.event.block.SignChangeEvent;
 import org.bukkit.event.player.PlayerInteractEvent;
 
+import lang.Lang;
+
 public class WorldListeners extends WorldMain implements Listener{
 	@EventHandler
 	public void onIntereact(PlayerInteractEvent e){
@@ -31,8 +33,7 @@ public class WorldListeners extends WorldMain implements Listener{
 		if(e.getLine(0).equalsIgnoreCase("test")){
 			setLine(sign, 0, "GameMap");
 			update(sign);
-			print("updated");
-			print(xyz);
+			print(xyz, Lang.Status.INFO);
 		}
 	}
 

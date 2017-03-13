@@ -8,14 +8,15 @@ import org.bukkit.entity.Player;
 import org.bukkit.event.Listener;
 
 import lang.Lang;
+import lang.Lang.Status;
 @SuppressWarnings("unused")
 public class WorldMain implements Listener{
 	Block block;
 	Sign sign;
 	Player player;
 	ArrayList<String> signText;
-	protected static void print(String text){
-		Lang.print(text);
+	protected static void print(String text, Status stat){
+		Lang.print(text, stat);
 	}
 	public ArrayList<String> readSign(Sign sign){
 		signText = new ArrayList<String>();
