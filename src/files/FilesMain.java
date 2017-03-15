@@ -31,5 +31,14 @@ public class FilesMain {
 		arenas.set(path, valuse);
 		try{ arenas.save(arenaFile); }
 		catch (Exception e){ e.printStackTrace(); }
+		save();
+	}
+	public void createConfigurationSection(String string){
+		arenas.createSection(string);
+		save();
+	}
+	private void save(){
+		try{ arenas.save(arenaFile); }
+		catch (Exception e){ e.printStackTrace(); }
 	}
 }

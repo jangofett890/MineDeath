@@ -32,4 +32,7 @@ public class ArenaManager {
 		}
 		return null;
 	}
+	public ArrayList<Arena> getArenas(){
+		return arena;
+	}
 }

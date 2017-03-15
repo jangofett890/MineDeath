@@ -18,6 +18,7 @@ public  class CommandMain implements CommandExecutor {
 	protected static void sendMessage(CommandSender src, String text, Status stat){
 		Lang.getInstance().sendMessage(src, text, stat);
 	}
+
 	Lang lang = Lang.getInstance();
 	private ArrayList<SubCommand> commnads = new ArrayList<SubCommand>();
 	public void setup(){}
