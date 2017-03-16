@@ -1,4 +1,4 @@
-package minedeath.world;
+package worldlisteners;
 
 import org.bukkit.block.Sign;
 import org.bukkit.event.EventHandler;

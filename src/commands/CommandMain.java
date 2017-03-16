@@ -20,24 +20,30 @@ public  class CommandMain implements CommandExecutor {
 	}
 
 	Lang lang = Lang.getInstance();
-	private ArrayList<SubCommand> commnads = new ArrayList<SubCommand>();
-	public void setup(){}
+	private ArrayList<SubCommand> commands = new ArrayList<SubCommand>();
+	public void setup(){		
+	commands.add(new RemoveArena());
+	commands.add(new ForceStart());
+	commands.add(new ForceStop());
+	commands.add(new Join());
+	commands.add(new Quit());
+	commands.add(new CreateArena());}
 	public boolean onCommand(CommandSender src, Command cmd, String lable, String[] args){
-		if (checkConsole(src) == true){
+		if (checkConsole(src)){
 			print("Only players can use this command.", Lang.Status.INFO);
 			return true;
 		}
 		Player player = (Player) src;
 		if (cmd.getName().equalsIgnoreCase("game")){
 			if(args.length == 0){
-				for (SubCommand c : commnads){
-					sendMessage(player, "game" + c.name() + aliesesToString(c), Lang.Status.INFO);
+				for (SubCommand c : commands){
+					sendMessage(player,c.name() + " (" + aliesesToString(c) + ")", Lang.Status.INFO);
 				}
 				return true;
 			}
 			SubCommand target = get(args[0]);
 			if(target == null){
-				sendMessage(player, "/game " + args[0] + " is not valid useage.", Lang.Status.ERROR);
+				sendMessage(player, "/game " + args[0] + " is not valid usage.", Lang.Status.ERROR);
 				return true;
 			}
 			ArrayList<String> a = new ArrayList<String>();
@@ -68,7 +74,7 @@ public  class CommandMain implements CommandExecutor {
 		return false;
 	}
 	private SubCommand get(String name){
-		for (SubCommand cmd : commnads){
+		for (SubCommand cmd : commands){
 			if(cmd.name().equalsIgnoreCase(name)) return cmd;
 		}
 		return null;

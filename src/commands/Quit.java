@@ -2,11 +2,11 @@ package commands;
 
 import org.bukkit.entity.Player;
 
-import lang.Lang;
+import lang.Lang.Status;
 
 public class Quit extends SubCommand {
 	public void onCommand(Player player, String[] args){
-		if (a == null){ sendMessage(player, "You are already in a game", Lang.Status.INFO); return; }
+		if (a == null){ sendMessage(player, "You not/gam in a game", Status.INFO); return; }
 		a.removePlayer(player);
 	}
 	public String name(){

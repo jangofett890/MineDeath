@@ -19,6 +19,4 @@ public class CreateArena extends SubCommand{
 	public String[] aliases() {
 		return new String[]{ "ca" };
 	}
-	
-
 }

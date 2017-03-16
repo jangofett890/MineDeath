@@ -20,6 +20,7 @@ public class Lang {
 			return ChatColor.GREEN;
 		}
 	}
+	
 	private Lang(){}
 	private static Lang instance = new Lang();
 	public static Lang getInstance(){

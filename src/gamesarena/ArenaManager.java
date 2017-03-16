@@ -16,7 +16,7 @@ public class ArenaManager {
 	}
 	private ArrayList<Arena> arena = new ArrayList<Arena>();
 	public void setup(){
-		for (int i : FilesMain.getInstance().<List<Integer>>get("ids")){
+		for (int i : FilesMain.getInstance().<List<Integer>>getArena("ids")){
 			arena.add(new Arena(i));
 		}
 	}

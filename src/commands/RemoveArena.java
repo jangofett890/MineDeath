@@ -2,7 +2,6 @@ package commands;
 
 import org.bukkit.entity.Player;
 
-import lang.Lang;
 import lang.Lang.Status;
 
 public class RemoveArena extends SubCommand {
@@ -12,10 +11,10 @@ public class RemoveArena extends SubCommand {
 			return;
 		}
 		try{ id = Integer.parseInt(args[0]); }
-		catch (Exception e){sendMessage(player, args[0] + " is not a valid number", Lang.Status.ERROR); return;}
-		if (a == null){ sendMessage(player, "There is no arena with the Id: "+ id, Lang.Status.ERROR); }
-		if (a.isStated()){ sendMessage(player, "Cannot delete in progress games", Lang.Status.INFO);}
-		files.set(id + "", null);
+		catch (Exception e){sendMessage(player, args[0] + " is not a valid number", Status.ERROR); return;}
+		if (a == null){ sendMessage(player, "There is no arena with the Id: "+ id, Status.ERROR); }
+		if (a.isStarted()){ sendMessage(player, "Cannot delete in progress games", Status.INFO);}
+		files.setArena(id + "", null);
 		arenaManager.setup();
 	}
 	public String name() {

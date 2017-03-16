@@ -3,3 +3,9 @@ version: 1.0
 main: minedeath.Main
 author: ConfinedFish
 description: A Test
+
+commands:
+     game:
+         usage: /game
+         aliases: [g]
+         description: Base Command
