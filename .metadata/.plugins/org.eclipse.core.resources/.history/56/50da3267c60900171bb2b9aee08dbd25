@@ -1,0 +1,5 @@
+package flags;
+
+public abstract class Flag<T> {
+	private 
+}

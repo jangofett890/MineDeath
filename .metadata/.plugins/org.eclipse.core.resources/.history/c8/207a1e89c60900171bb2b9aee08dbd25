@@ -1,0 +1,8 @@
+package flags;
+
+public abstract class Flag<T> {
+	private String name;
+	private T val;
+	private T defaultVal;
+	
+}

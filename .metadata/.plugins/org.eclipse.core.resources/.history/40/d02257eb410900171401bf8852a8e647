@@ -1,0 +1,10 @@
+package lang;
+
+public enum Status {
+	Status(){}
+	private static Lang instance = new Status();
+	public static Lang getInstance(){
+		return instance;
+	}
+
+}

@@ -1,0 +1,9 @@
+package lang;
+import org.bukkit.Bukkit;
+import org.bukkit.command.ConsoleCommandSender;
+
+public class Lang {
+	public void print(String arg){
+		ConsoleSender.sendMessage(arg);
+	}
+}

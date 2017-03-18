@@ -1,0 +1,19 @@
+package minedeath;
+
+import org.apache.commons.codec.language.bm.Lang;
+import org.bukkit.ChatColor;
+import org.bukkit.command.ConsoleCommandSender;
+import org.bukkit.plugin.java.JavaPlugin;
+
+import minedeath.world.WorldMain;
+
+
+public class Main extends JavaPlugin{
+	public void onEnable(){
+		getServer().getPluginManager().registerEvents(new WorldMain(), this);
+		print(ChatColor.GREEN + "MineDeath Has Been Enabled");
+		
+	}
+	
+	
+}

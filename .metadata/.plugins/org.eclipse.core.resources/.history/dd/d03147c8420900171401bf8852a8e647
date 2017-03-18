@@ -1,0 +1,31 @@
+package commands;
+
+import org.bukkit.entity.Player;
+
+import lang.Lang.Status;
+
+public class SetArenaLocation extends SubCommand{
+
+	@Override
+	public void onCommand(Player player, String[] args) {
+		if(args.length < 2){
+			sendMessage(player, "Specify more arguments", Status.ERROR);
+		}
+	}
+	@Override
+	public String name() {
+		return "setspawn";
+	}
+
+	@Override
+	public String info() {
+		return null;
+	}
+
+	@Override
+	public String[] aliases() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

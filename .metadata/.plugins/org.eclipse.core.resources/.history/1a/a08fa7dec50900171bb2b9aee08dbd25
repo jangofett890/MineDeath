@@ -1,0 +1,7 @@
+package flags;
+
+public abstract class Flag<T> {
+	public abstract String defaultValue();
+	public abstract String value();
+	public abstract String MetaData();
+}

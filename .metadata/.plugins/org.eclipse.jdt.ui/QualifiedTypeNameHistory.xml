@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.spongepowered.api.event.game.state.GameInitializationEvent"/>
+<fullyQualifiedTypeName name="org.spongepowered.api.command.spec.CommandSpec"/>
+<fullyQualifiedTypeName name="org.bukkit.ChatColor"/>
+<fullyQualifiedTypeName name="org.bukkit.command.Command"/>
+<fullyQualifiedTypeName name="org.spongepowered.api.Game"/>
+<fullyQualifiedTypeName name="org.spongepowered.api.GameRegistry"/>
+<fullyQualifiedTypeName name="org.spongepowered.api.command.CommandResult"/>
+<fullyQualifiedTypeName name="org.bukkit.event.Listener"/>
+<fullyQualifiedTypeName name="org.bukkit.block.Block"/>
+<fullyQualifiedTypeName name="minedeath.Main"/>
+<fullyQualifiedTypeName name="lang.Lang"/>
+<fullyQualifiedTypeName name="commands.SubCommand"/>
+<fullyQualifiedTypeName name="net.md_5.bungee.api.ChatColor"/>
+<fullyQualifiedTypeName name="gamesarena.ArenaManager.Team"/>
+<fullyQualifiedTypeName name="files.FilesMain"/>
+<fullyQualifiedTypeName name="org.bukkit.configuration.ConfigurationSection"/>
+<fullyQualifiedTypeName name="lang.Lang.Status"/>
+<fullyQualifiedTypeName name="flags.Bool"/>
+</qualifiedTypeNameHistroy>

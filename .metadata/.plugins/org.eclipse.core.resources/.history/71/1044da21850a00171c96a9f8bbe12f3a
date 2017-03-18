@@ -1,0 +1,11 @@
+package games;
+
+import java.util.HashMap;
+
+import flags.Bool;
+import flags.Flag;
+
+public class GamesMain {
+	private HashMap<String, Flag<T>> flags = new HashMap<String, Flag<T>>();
+	private Bool flag = new Bool("teams", false);
+}

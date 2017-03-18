@@ -1,0 +1,13 @@
+package lang;
+import org.bukkit.Bukkit;
+
+public class Lang {
+	private Lang(){}
+	private static Lang instance = new Lang();
+	public static Lang getInstance(){
+		return instance;
+	}
+	public static void print(String arg){
+		Bukkit.getServer().getConsoleSender().sendMessage(arg);
+	}
+}

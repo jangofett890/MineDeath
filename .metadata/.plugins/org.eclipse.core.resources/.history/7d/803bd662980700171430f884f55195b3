@@ -1,0 +1,10 @@
+package commands;
+
+import org.bukkit.entity.Player;
+
+public class Quit extends SubCommand {
+	public void onCommand(Player p, String[] args){
+		
+	}
+
+}

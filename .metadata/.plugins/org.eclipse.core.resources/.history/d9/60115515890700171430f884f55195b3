@@ -1,0 +1,22 @@
+package lang;
+import org.bukkit.Bukkit;
+import org.bukkit.command.CommandSender;
+
+import net.md_5.bungee.api.ChatColor;
+
+public class Lang {
+	private Lang(){}
+	private static Lang instance = new Lang();
+	public static Lang getInstance(){
+		return instance;
+	}
+	public void info(CommandSender src, String msg){
+		msg(src, ChatColor.AQUA, msg);
+	}
+	private void msg(CommandSender src, ChatColor color, String msg){
+		src.sendMessage(color + msg);
+	}
+	public static void print(String arg){
+		Bukkit.getServer().getConsoleSender().sendMessage(arg);
+	}
+}

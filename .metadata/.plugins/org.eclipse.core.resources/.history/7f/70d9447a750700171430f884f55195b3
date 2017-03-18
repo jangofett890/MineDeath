@@ -1,0 +1,12 @@
+package gameevents;
+
+import org.bukkit.entity.Player;
+
+public class GameJoinEvent extends GameEvent{
+	Game game;
+	Player player;
+	public GameJoinEvent(Game game, Player player){
+		this.player = player;
+		this.game = game;
+	}
+}

@@ -1,0 +1,20 @@
+package commands;
+
+import org.bukkit.entity.Player;
+
+public class CreateArena extends SubCommand{
+	public void onCommand(Player player, String[] args) {
+		int id = arenaManager.getArenas().size();
+	}
+	public String name() {
+		return "create";
+	}
+	public String info() {
+		return "Create an Arena";
+	}
+	public String[] aliases() {
+		return null;
+	}
+	
+
+}

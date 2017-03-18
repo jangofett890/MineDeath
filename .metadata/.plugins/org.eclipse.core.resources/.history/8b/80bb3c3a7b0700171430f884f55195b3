@@ -1,0 +1,7 @@
+package gamesarena;
+
+public class ArenaManager {
+	public enum Team {RED,BLUE}
+	
+
+}

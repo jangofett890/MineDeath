@@ -1,0 +1,9 @@
+package gamesarena;
+
+import org.bukkit.inventory.ItemStack;
+
+public class PlayerInventory {
+	public void addIntoInventory(Player player, ItemStack item, int ammount){
+		inventory.
+	}
+}

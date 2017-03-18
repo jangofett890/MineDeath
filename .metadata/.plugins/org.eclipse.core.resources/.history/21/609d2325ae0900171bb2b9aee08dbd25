@@ -1,0 +1,8 @@
+package gamesarena;
+
+public class PlayerInfo {
+	private String player;
+	private Team team;
+	private PlayerInvententory inventory;
+	private Location location;
+}

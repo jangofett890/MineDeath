@@ -1,0 +1,8 @@
+package lang;
+import minedeath.Main;
+
+public class Lang {
+	public void print(String arg){
+		Main.ConsoleSender.sendMessage(arg);
+	}
+}

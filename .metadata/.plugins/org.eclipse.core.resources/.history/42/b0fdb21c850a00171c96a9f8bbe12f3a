@@ -1,0 +1,7 @@
+package games;
+
+import flags.Bool;
+
+public class GamesMain {
+	private Bool flag = new Bool("teams", false);
+}

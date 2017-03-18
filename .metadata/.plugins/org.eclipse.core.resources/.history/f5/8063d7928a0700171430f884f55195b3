@@ -1,0 +1,32 @@
+package commands;
+
+import java.util.ArrayList;
+
+import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
+import org.bukkit.command.CommandSender;
+import org.bukkit.entity.Player;
+
+import lang.Lang;
+
+public class CommandMain implements CommandExecutor {
+	protected static void print(String text){
+		Lang.print(text);
+	}
+	Lang lang = Lang.getInstance();
+	private ArrayList<SubCommand> commnads = new ArrayList<SubCommand>();
+	public void setup(){}
+	public boolean onCommand(CommandSender src, Command cmd, String[] args){
+		if (checkConsole(src) == true){
+			
+			return true;
+		}
+		
+	}
+	public static boolean checkConsole(CommandSender src){
+		if (!(src instanceof Player)){
+			return true;
+		}
+		return false;
+	}
+}

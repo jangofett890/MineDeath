@@ -1,0 +1,12 @@
+package files;
+
+import java.io.File;
+
+public class FileUtils {
+	public void check(File file){
+		if (!file.exists()){
+			try {file.createNewFile();}
+			catch (Exception e){e.printStackTrace();}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+package files;
+
+import java.io.File;
+
+public class FileUtils {
+	public void check(File file){
+		
+	}
+}

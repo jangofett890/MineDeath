@@ -1,0 +1,16 @@
+package gamesarena;
+
+import java.util.ArrayList;
+
+public class ArenaManager {
+	public enum Team {RED,BLUE}
+	private ArenaManager(){}
+	private static ArenaManager instance = new ArenaManager();
+	public static ArenaManager getInstance(){
+		return instance;
+	}
+	private ArrayList<Arena> arena = new ArrayList<Arena>();
+	public void setup(){
+		
+	}
+}

@@ -1,0 +1,7 @@
+package flags;
+
+public class BoolFlag extends Flag<Boolean>{
+	public BoolFlag(String name, boolean bool){
+		
+	}
+}

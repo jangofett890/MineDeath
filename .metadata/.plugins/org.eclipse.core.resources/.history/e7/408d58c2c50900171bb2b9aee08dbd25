@@ -1,0 +1,13 @@
+package flags;
+
+public class BoolFlag extends Flag<Boolean>{
+	public String defaultValue() {
+		return false;
+	}
+	public String value() {
+		return null;
+	}
+	public String MetaData() {
+		return null;
+	}
+}

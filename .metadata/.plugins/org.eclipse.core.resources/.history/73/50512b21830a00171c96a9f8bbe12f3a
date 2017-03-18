@@ -1,0 +1,6 @@
+%gamemodename%:
+    gametype: 
+	flags:
+		%bool%: true
+		%string%: example
+		%int%: 422

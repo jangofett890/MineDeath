@@ -1,0 +1,10 @@
+package lang;
+import org.bukkit.Bukkit;
+import org.bukkit.command.ConsoleCommandSender;
+
+public class Lang {
+	public ConsoleCommandSender ConsoleSender = Bukkit.getServer().getConsoleSender();
+	public void print(String arg){
+		ConsoleSender.sendMessage(arg);
+	}
+}

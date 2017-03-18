@@ -1,0 +1,10 @@
+package worldlisteners;
+
+import org.bukkit.event.Listener;
+
+public class BlockBreakEvent extends WorldMain implements Listener {
+	@EventHandler
+	public void onBlockBreakEvent(BlockBreakEvent e){
+		
+	}
+}

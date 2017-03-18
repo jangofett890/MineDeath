@@ -1,0 +1,16 @@
+package lang;
+
+import net.md_5.bungee.api.ChatColor;
+
+public enum Status {
+	INFO, SEVERE, ERROR;
+	public ChatColor info(){
+		return ChatColor.YELLOW;
+	}
+	public ChatColor error(){
+		return ChatColor.RED;
+	}
+	public ChatColor severe(){
+		return ChatColor.DARK_RED;
+	}
+}

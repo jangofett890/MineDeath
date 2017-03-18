@@ -1,0 +1,12 @@
+package gamesarena;
+
+import org.bukkit.Location;
+
+import gamesarena.ArenaManager.Team;
+
+public class PlayerInfo {
+	private String player;
+	private Team team;
+	private PlayerInvententory inventory;
+	private Location location;
+}

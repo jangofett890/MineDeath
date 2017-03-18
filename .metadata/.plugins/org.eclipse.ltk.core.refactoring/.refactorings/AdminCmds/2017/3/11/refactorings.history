@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;plugin.yml&apos; to &apos;MineDeath/src&apos;&#x0D;&#x0A;- Original project: &apos;AdminCmds&apos;&#x0D;&#x0A;- Destination element: &apos;MineDeath/src&apos;&#x0D;&#x0A;- Original element: &apos;plugin.yml&apos;" description="Copy file" destination="=MineDeath/src" element1="src/plugin.yml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1489288183106" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,21 @@
+package commands;
+
+import org.bukkit.entity.Player;
+
+import gamesarena.ArenaManager;
+
+public class Join extends SubCommand{
+	Instance arenaManager = ArenaManager.getInstance();
+	public void onCommand(Player player, String[] args){
+		if ()
+	}
+	public String name(){
+		return "join";
+	}
+	public String info(){
+		return "Join a game";
+	}
+	public String[] aliases(){
+		return new String[]{"J"};
+	}
+}

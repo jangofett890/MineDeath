@@ -1,0 +1,11 @@
+name: MineDeath
+version: 1.0
+main: minedeath.Main
+author: ConfinedFish
+description: A Test
+
+commands:
+     game:
+         usage: /game
+         aliases: [fop]
+         description: Tricks the player of getting op!

@@ -1,0 +1,7 @@
+%gamemodename%:
+	spawn(s):
+		default:
+			world:
+			x:
+			y:
+			z:
