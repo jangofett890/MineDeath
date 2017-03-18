@@ -1,6 +1,0 @@
-package minedeathgame;
-
-public enum MineDeathModes {
-	TEAMDEATHMATCH("TDM");
-	
-}

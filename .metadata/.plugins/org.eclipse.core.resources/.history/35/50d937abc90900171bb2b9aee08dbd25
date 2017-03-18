@@ -1,8 +1,0 @@
-%gamemodename%:
-	spawn(s):
-		world:
-		x:
-		y:
-		z:
-	team(s):
-		blue

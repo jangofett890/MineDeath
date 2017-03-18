@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy package &apos;nameofthegame&apos; to &apos;NameOfTheGameBukkit/src&apos;&#x0D;&#x0A;- Original project: &apos;NameOfTheGame&apos;&#x0D;&#x0A;- Destination element: &apos;NameOfTheGameBukkit/src&apos;&#x0D;&#x0A;- Original element: &apos;NameOfTheGame/src/nameofthegame&apos;" description="Copy package" destination="=NameOfTheGameBukkit/src" element1="/src&lt;nameofthegame" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1489116377759" version="1.0"/>
-</session>

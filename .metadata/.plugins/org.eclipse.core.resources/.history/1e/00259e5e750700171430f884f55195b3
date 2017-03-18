@@ -1,9 +1,0 @@
-package gameevents;
-
-import org.bukkit.entity.Player;
-
-public class GameJoinEvent extends GameEvent{
-	public GameJoinEvent(Game game, Player player){
-		
-	}
-}

@@ -1,7 +1,0 @@
-package files;
-
-public class FileUtils {
-	public void mkDir(String path){
-		
-	}
-}

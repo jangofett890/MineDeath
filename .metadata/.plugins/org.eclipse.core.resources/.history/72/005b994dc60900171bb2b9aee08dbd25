@@ -1,8 +1,0 @@
-package flags;
-
-public abstract class Flag<T> {
-	private abstract String name();
-	private abstract T defaultValue();
-	private  abstract T value();
-	private abstract T MetaData();
-}

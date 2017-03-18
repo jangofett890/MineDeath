@@ -1,6 +1,0 @@
-FreeForAll:
-    gametype: DEATHMATCH
-	flags:
-		%bool%: true
-		%string%: example
-		%int%: 422

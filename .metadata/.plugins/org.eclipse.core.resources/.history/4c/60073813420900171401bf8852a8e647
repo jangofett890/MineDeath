@@ -1,7 +1,0 @@
-package lang;
-
-public enum Status {
-	INFO, SEVERE, ERROR;
-	
-
-}

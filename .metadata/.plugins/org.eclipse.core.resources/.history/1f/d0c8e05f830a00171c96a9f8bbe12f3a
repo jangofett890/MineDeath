@@ -1,7 +1,0 @@
-FreeForAll:
-    gametype: DEATHMATCH
-	flags:
-		teams: false
-		maxplayers: 10
-		minplayers: 4
-		canspectate: true

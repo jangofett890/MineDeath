@@ -1,5 +1,0 @@
-package gameevents;
-
-public class GameJoinEvent extends GameEvent{
-	
-}

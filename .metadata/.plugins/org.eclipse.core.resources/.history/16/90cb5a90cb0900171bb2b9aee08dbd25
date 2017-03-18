@@ -1,6 +1,0 @@
-package games;
-
-public enum GamesType {
-	FREEFORALL,
-	
-}

@@ -1,7 +1,0 @@
-package gamesarena;
-
-public class PlayerInventory {
-	public void addIntoInventory(PlayerInventory inventory, ItemStack item, int ammount){
-		
-	}
-}
